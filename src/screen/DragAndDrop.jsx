@@ -76,7 +76,7 @@ const DragAndDrop = () => {
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black flex items-center justify-center p-4">
       <div className="max-w-lg w-full">
         <h2 className="text-3xl font-bold text-gray-200 text-center mb-6">
-          Trello-like Task Organizer
+          Task Organizer
         </h2>
         <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-6 w-full space-y-3">
           {tasks.map((task, index) => (
